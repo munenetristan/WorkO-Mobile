@@ -1,0 +1,50 @@
+export type Service = {
+  id: string;
+  name: string;
+  sortOrder: number;
+  enabled: boolean;
+};
+
+export const services: Service[] = [
+  { id: 'tow', name: 'Towing', sortOrder: 1, enabled: true },
+  { id: 'battery', name: 'Battery Jump', sortOrder: 2, enabled: true },
+  { id: 'flat', name: 'Flat Tire', sortOrder: 3, enabled: true },
+  { id: 'lockout', name: 'Lockout', sortOrder: 4, enabled: true },
+  { id: 'fuel', name: 'Fuel Delivery', sortOrder: 5, enabled: true },
+  { id: 'plumbing', name: 'Plumbing', sortOrder: 6, enabled: true },
+  { id: 'electrical', name: 'Electrical', sortOrder: 7, enabled: true },
+  { id: 'hvac', name: 'HVAC Repair', sortOrder: 8, enabled: true },
+  { id: 'carpentry', name: 'Carpentry', sortOrder: 9, enabled: true },
+  { id: 'cleaning', name: 'Home Cleaning', sortOrder: 10, enabled: true },
+  { id: 'painting', name: 'Painting', sortOrder: 11, enabled: true },
+  { id: 'landscaping', name: 'Landscaping', sortOrder: 12, enabled: true },
+  { id: 'pest', name: 'Pest Control', sortOrder: 13, enabled: true },
+  { id: 'moving', name: 'Moving Help', sortOrder: 14, enabled: true },
+  { id: 'delivery', name: 'Local Delivery', sortOrder: 15, enabled: true },
+  { id: 'laundry', name: 'Laundry', sortOrder: 16, enabled: true },
+  { id: 'gardening', name: 'Gardening', sortOrder: 17, enabled: true },
+  { id: 'window', name: 'Window Cleaning', sortOrder: 18, enabled: true },
+  { id: 'roof', name: 'Roof Repair', sortOrder: 19, enabled: true },
+  { id: 'appliance', name: 'Appliance Repair', sortOrder: 20, enabled: true },
+  { id: 'it', name: 'IT Support', sortOrder: 21, enabled: true },
+  { id: 'photography', name: 'Photography', sortOrder: 22, enabled: true },
+  { id: 'videography', name: 'Videography', sortOrder: 23, enabled: true },
+  { id: 'barber', name: 'Barber', sortOrder: 24, enabled: true },
+  { id: 'hair', name: 'Hair Styling', sortOrder: 25, enabled: true },
+  { id: 'makeup', name: 'Makeup', sortOrder: 26, enabled: true },
+  { id: 'nails', name: 'Nail Technician', sortOrder: 27, enabled: true },
+  { id: 'massage', name: 'Massage', sortOrder: 28, enabled: true },
+  { id: 'fitness', name: 'Fitness Trainer', sortOrder: 29, enabled: true },
+  { id: 'tutoring', name: 'Tutoring', sortOrder: 30, enabled: true },
+  { id: 'language', name: 'Language Lessons', sortOrder: 31, enabled: true },
+  { id: 'pet-sitting', name: 'Pet Sitting', sortOrder: 32, enabled: true },
+  { id: 'pet-groom', name: 'Pet Grooming', sortOrder: 33, enabled: true },
+  { id: 'baby', name: 'Babysitting', sortOrder: 34, enabled: true },
+  { id: 'elder', name: 'Elder Care', sortOrder: 35, enabled: true },
+  { id: 'event', name: 'Event Setup', sortOrder: 36, enabled: true },
+  { id: 'security', name: 'Security Guard', sortOrder: 37, enabled: true },
+  { id: 'truck', name: 'Truck Rental', sortOrder: 38, enabled: true },
+  { id: 'courier', name: 'Courier', sortOrder: 39, enabled: true },
+  { id: 'carwash', name: 'Car Wash', sortOrder: 40, enabled: true },
+  { id: 'inspection', name: 'Vehicle Inspection', sortOrder: 41, enabled: true },
+];
