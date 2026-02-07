@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "207939716234",
+    "project_id": "towmech-dc8c4",
+    "storage_bucket": "towmech-dc8c4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207939716234:android:930d53a826b46adb9c9973",
+        "android_client_info": {
+          "package_name": "com.test.fcm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN0DNVluCxTmBUje_5pwFJ6KMzoEj345g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207939716234:android:b405426df354afff9c9973",
+        "android_client_info": {
+          "package_name": "com.towmech.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN0DNVluCxTmBUje_5pwFJ6KMzoEj345g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207939716234:android:ab3a1158f7d9266a9c9973",
+        "android_client_info": {
+          "package_name": "com.towmech.customer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN0DNVluCxTmBUje_5pwFJ6KMzoEj345g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
